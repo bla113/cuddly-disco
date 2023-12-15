@@ -7,9 +7,9 @@ class Conexion
 	{
 
 		$link = new PDO(
-			"mysql:host=localhost;dbname=padron_electoral",
-			"root",
-			""
+			"mysql:host=jbrsoluciones.com;dbname=dbpqcgdxj55gpq",
+			"ujbjvujfgrfs4",
+			"b8^~3uf71@^}"
 		);
 
 		$link->exec("set names utf8");
